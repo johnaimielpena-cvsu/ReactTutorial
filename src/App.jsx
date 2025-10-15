@@ -6,7 +6,7 @@ import Home from "./assets/components/Home.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ReactTutorial">
       <div className="flex min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
         {/* Sidebar */}
         <Sidebar />
